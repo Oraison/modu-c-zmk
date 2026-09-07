@@ -59,12 +59,12 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans                               &trans       &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &bootloader  &bootloader  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+&kp KP_NUMLOCK  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &trans                               &trans       &trans  &trans  &trans
             >;
         };
     };
