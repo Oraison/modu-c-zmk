@@ -60,12 +60,12 @@
 
         layer_2 {
             bindings = <
-&kp GRAVE       &kp LG(LS(S))  &kp PRINTSCREEN  &kp LA(PRINTSCREEN)  &trans     &bootloader  &bootloader  &out OUT_USB  &out OUT_BLE  &kp MINUS         &kp EQUAL          &kp BACKSPACE
-&kp INSERT      &trans         &trans           &trans               &trans     &trans       &trans       &trans        &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp KP_NUMLOCK  &trans         &trans           &trans               &trans     &trans       &trans       &trans        &trans        &trans            &kp SINGLE_QUOTE   &kp ENTER
-&kp LSHIFT      &kp LC(Z)      &kp LC(X)        &kp LC(C)            &kp LC(V)  &kp LC(B)    &trans       &trans        &trans        &trans            &trans             &trans
-&trans          &trans         &trans           &trans               &trans     &trans       &trans       &trans        &trans        &trans            &trans             &trans
-&trans          &trans         &trans                                                        &trans       &trans        &trans        &trans
+&kp GRAVE       &kp LG(LS(S))  &kp PRINTSCREEN  &kp LA(PRINTSCREEN)  &trans     &bootloader  &bootloader  &out OUT_USB  &out OUT_BLE     &kp MINUS         &kp EQUAL          &kp BACKSPACE
+&kp INSERT      &trans         &trans           &trans               &trans     &trans       &kp K_MUTE   &kp C_VOL_DN  &kp C_VOLUME_UP  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp KP_NUMLOCK  &trans         &trans           &trans               &trans     &trans       &trans       &trans        &trans           &trans            &kp SINGLE_QUOTE   &kp ENTER
+&kp LSHIFT      &kp LC(Z)      &kp LC(X)        &kp LC(C)            &kp LC(V)  &kp LC(B)    &trans       &trans        &trans           &trans            &trans             &trans
+&trans          &trans         &trans           &trans               &trans     &trans       &trans       &trans        &trans           &trans            &trans             &trans
+&trans          &trans         &trans                                                        &trans       &trans        &trans           &trans
             >;
         };
     };
